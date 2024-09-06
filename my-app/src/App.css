@@ -3,4 +3,19 @@
   padding: 0%;
 }
 
+input{
+  padding: 0.7rem;
+  border: 1px solid rgb(108, 104, 104);
+  outline: none;
+  border-radius: 5px;
+}
 
+
+form{
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}

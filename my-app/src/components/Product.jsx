@@ -2,12 +2,15 @@ import React from 'react'
 import {useParams} from "react-router-dom"
 
 
-const Product = ({value}) => {
+const Product = ({name, symbol, imgSrc, price}) => {
 
     const param = useParams()
   return (
     <div>
-        <h1>{value}</h1>
+        <img src={imgSrc} alt={name} />
+        <h1>{name}</h1>
+        <p>{symbol}</p>
+        <h6>Rupees {price}</h6>
     </div>
   )
 }
